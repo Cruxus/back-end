@@ -10,29 +10,21 @@
         <header>
             <nav>
                 <ul>
-                    <li><a href="#" class="accueil">Accueil</a></li>
-                    <li><a href="#" class="identification">Me déconnecter</a></li>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Me déconnecter</a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <div id="main">  
                 <div class="gauche">
-                    <div class="lines"> 
-                        <div class="square color1"></div>
-                        <div class="bloc color1"></div>
-                    </div>
                     <div class="lines">
                         <div class="square color2"></div>
-                        <div class="bloc color2"></div>
-                    </div>
-                    <div class="lines">
-                        <div class="square color2"></div>
-                        <div class="bloc color2"></div>
+                        <a href="# "class="bloc color2 toSelect">URL</a>
                     </div>
                     <div class="lines">
                         <div class="square color3"></div>
-                        <div class="bloc color3"><p>clic</p></div>
+                        <a href="#" class="bloc color3 toSelect showShortURL">CRÉER UN NOUVEAU LIEN</a>
                     </div>
                 </div>
                 <div class="droite">
@@ -44,11 +36,18 @@
                         <a href="#" class="copy">Copier dans le presse papier</a>
                     </div>
                 </div>
+                <div class="droite2">
+                    <h3>Entrez l’URL à raccourcir</h3>
+                    <form action="#" method="" onsubmit="return false">
+                        <input type="text" name="url" value="http://">
+                        <button type="submit" class="button_page">Créer un nouveau lien</button>
+                    </form>
+                </div>
             </div>     
         </main>
         <footer>
             © Catherine Ye - Sabrina Malki - Thomas Tarantino
         </footer>
     </body>
-    <script src="script.js"></script>
+    <script src="script2.js"></script>
 </html>

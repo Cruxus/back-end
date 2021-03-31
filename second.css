@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    font-family: DIN Next W1G;
+    font-size: 24px;
+    color: #FFF;
+    background-color: #AFC1D6;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    padding: 25px 0;
+    color: #DBD6D2;
+    background-color: #383D42;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav ul li a{
+    padding: 5px 10px;
+    font-family: DIN Condensed, 'light';
+    color: #DBD6D2;
+    text-decoration: none;
+    border: 1px solid #DBD6D2;
+    border-radius: 25px;
+}
+
+nav ul li a:hover{
+    transition-duration: 1s;
+    color: #383D42;
+    background-color: #DBD6D2;
+}
+
+#main{
+    width: 1200px;
+    padding-top: 200px;
+    margin: 0 auto;
+    display: flex;
+}
+.gauche{
+    display: flex;
+    flex-direction: column;
+}
+
+.lines{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.lines:hover{
+    transition-duration: 1s;
+    transform: translate(40px,0px);
+}
+
+.square{
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+    margin-right: 50px;
+}
+
+.bloc{
+    width: 360px;
+    height: 90px;
+    border-radius: 5px;
+}
+
+.color1{
+    background-color: #7897BB;
+}
+
+.color2{
+    background-color: #223244;
+}
+
+.color3{
+    background-color: #FFFFFF;
+}
+
+.droite{
+    width: 600px;
+    margin-top: -80px;
+}
+.clic{
+    font-family: Tungsten, 'bold';
+    font-size: 80px;
+    color: #7897BB;
+    text-align: center;
+}
+
+.score{
+    font-family: Tungsten, 'bold';
+    font-size: 80px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.stateurl{
+    font-family: Yanone Kaffeesatz;
+    color: #223244;;
+    font-size: 18px;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.buttons a{
+    padding: 5px 10px;
+    font-family: Yanone Kaffeesatz;
+    color: #223244;;
+    text-decoration: none;
+    border: 1px solid #223244;
+    border-radius: 25px;
+    justify-content: space-evenly;   
+}
+
+.buttons a:hover{
+    transition-duration: 1s;
+    color: #FFFFFF;
+    background-color: #223244;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 250px;
+    padding: 25px 0;
+    font-family: 12px;
+    text-align: center;
+    color: #DBD6D2;
+    background-color: #383D42;
+}

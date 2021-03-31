@@ -47,6 +47,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
+    transition-duration: 1s;
     color: #383D42;
     background-color: #DBD6D2;
 }
@@ -97,6 +98,7 @@ input{
 }
 
 .button_page:hover{
+    transition-duration: 1s;
     color: #DBD6D2;
     background-color: #223244;
 }

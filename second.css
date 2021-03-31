@@ -6,6 +6,11 @@ body{
     background-color: #AFC1D6;
 }
 
+h3{
+    font-family: DIN Condensed, 'bold';
+    font-size: 36px;
+}
+
 a{
     text-decoration: none;
 }
@@ -46,6 +51,7 @@ nav ul li a:hover{
     padding-top: 200px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
 }
 .gauche{
     display: flex;
@@ -58,11 +64,9 @@ nav ul li a:hover{
     align-items: center;
     margin-right: 50px;
     margin-bottom: 50px;
-}
-
-.lines:hover{
-    transition-duration: 1s;
-    transform: translate(40px,0px);
+    font-family: Yanone Kaffeesatz;
+    font-size: 36px;
+    justify-content: center;
 }
 
 .square{
@@ -76,6 +80,19 @@ nav ul li a:hover{
     width: 360px;
     height: 90px;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #223244;
+}
+
+.toSelect:hover{
+    transition-duration: 1s;
+    transform: translateX(40px);
+}
+
+.selected{
+    background-color: #7897BB;
 }
 
 .color1{
@@ -94,6 +111,48 @@ nav ul li a:hover{
     width: 600px;
     margin-top: -80px;
 }
+
+.droite2{
+    width: 300px;
+    height: 250px;
+    background-color: #7897BB;
+    border-radius: 15px;
+    padding: 50px 70px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    font-family: Yanone Kaffeesatz;
+    font-size: 18px;
+    border-radius: 15px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+
+.button_page{
+    font-family: DIN Condensed, 'light';
+    color: #223244;
+    background-color: #7897BB;
+    text-decoration: none;
+    font-size: 25px;
+    border: 2px solid #223244;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.button_page:hover{
+    transition-duration: 1s;
+    color: #DBD6D2;
+    background-color: #223244;
+}
+
 .clic{
     font-family: Tungsten, 'bold';
     font-size: 80px;
@@ -122,18 +181,19 @@ nav ul li a:hover{
 }
 
 .buttons a{
-    padding: 5px 10px;
-    font-family: Yanone Kaffeesatz;
-    color: #223244;;
+    font-family: DIN Condensed, 'light';
+    background-color: #AFC1D6;
+    color: #223244;
     text-decoration: none;
-    border: 1px solid #223244;
+    font-size: 25px;
+    border: 2px solid #223244;
     border-radius: 25px;
-    justify-content: space-evenly;   
+    padding: 10px;
 }
 
 .buttons a:hover{
     transition-duration: 1s;
-    color: #FFFFFF;
+    color: #FFF;
     background-color: #223244;
 }
 
